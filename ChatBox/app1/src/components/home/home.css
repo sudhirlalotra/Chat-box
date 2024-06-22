@@ -1,0 +1,56 @@
+.home{
+    background:linear-gradient(45deg, rgba(248, 4, 4, 0.564),rgba(6, 29, 240, 0.564)),url('../../images/banner.jpeg') no-repeat center center/cover;
+    height: 100vh;
+    width: 100vw;
+    display:flex ;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.home>h1{
+    font-size: 60px;
+    color: white;
+    text-shadow: 0 0  20px red, 0 0 40px gold;
+    text-align: center;
+}
+.home>h2{
+font-size: 30px;
+color :white;
+text-transform: uppercase;
+text-align: center;
+}
+.link{
+    text-decoration: none;
+    background:url(../../images/robot.png) no-repeat center center/cover;
+    height: 280px;
+}
+.link button{
+    font-size: 30px;
+    color:white;
+    background:red;
+    padding: 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    z-index: 1;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.458);
+    margin-top: 162px;
+}
+.link button:hover{
+color:red;
+transition: 0.3s;
+background:transparent;
+box-shadow: none;
+cursor: pointer;
+}
+@media (max-width:992px) {
+    .link button{
+        margin-top: 140px;
+        font-size: 20px;
+    }
+}
